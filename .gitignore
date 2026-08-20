@@ -1,0 +1,24 @@
+# Maven 构建输出
+target/
+dependency-reduced-pom.xml
+
+# jlink / jpackage 产物
+minimal-runtime/
+package/
+pack-input/
+output/
+
+# .NET 启动器（打包工具，非项目源码）
+launcher/
+
+# JavaFX 外部依赖模块
+javafx-jmods-*/
+
+# IDEA 项目配置文件
+.idea/
+*.iml
+
+# 系统或编辑器临时文件
+.DS_Store
+Thumbs.db
+*.log
